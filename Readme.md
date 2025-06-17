@@ -1,45 +1,78 @@
-# 🥗 Recipe Recommendation System
 
-A full-stack web application built using **Django** and **React** that recommends recipes based on user-provided ingredients. Users can filter recipes by vegetarian/non-vegetarian preferences, add new recipes, save favorites, and view their profile.
+# Django-React-Realtime-Chat-APP 
+ Django -React realtime chat web application using Websocket
 
----
+### This repository contains a Django WebSocket server and a React client for a real-time chat application.
 
-## 🚀 Features
+###  Features
 
-- 🔍 **Recipe Recommendation**  
-  Users enter ingredients, and the system suggests matching recipes based on ingredient similarity.
+- **Authentication**: Users can log in using JWT (JSON Web Tokens) for secure authentication.
+- **Send Interest**: Users can send interest requests to other users.
+- **Accept/Reject Interest**: Users can accept or reject interest requests.
+- **Real-time Chat**: Users can chat in real time with users who have accepted their interest.
+- **Dashboard**: View and manage pending and accepted users from a dashboard.
 
-- 🥦 **Veg/Non-Veg Filter**  
-  Filter recommendations based on dietary preferences.
 
-- ✍️ **Add Recipes**  
-  Users can contribute by adding new recipes with title, ingredients, and instructions.
+### Demonstration Video
 
-- ❤️ **Favorites**  
-  Users can save their favorite recipes and manage them.
+* Watch the demonstration video below to see the application in action:
 
-- 👤 **User Profile**  
-  Displays user information along with their list of favorite recipes.
 
----
+https://github.com/user-attachments/assets/3f52e550-260a-413d-a181-5efa7d5f4dc8
 
-## 🛠 Tech Stack
 
-### Frontend
-- React JS
-- Axios (API calls)
-- React Router
 
-### Backend
-- Django REST Framework
-- Django Simple JWT (authentication)
-- SQLite (default) or PostgreSQL (optional)
 
----
+## Setup Instructions
 
-## 📦 Installation & Setup
+### Clone the Repository
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Sashi1174/RecipeRecommendation.git
-cd RecipeRecommendation
+To get started, clone the repository to your local machine:
+
+```sh
+git clone https://github.com/Faizgeeky/Django_RealTime_ChatApp.git
+cd Faiz-Z_Tech-Task
+```
+
+### Setting Up the Django WebSocket Server
+
+1. Navigate to the `server` folder:
+    ```sh
+    cd server
+    ```
+
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Run the Daphne server:
+    ```sh
+    daphne -p 8000 server.asgi:application
+    ```
+
+### Setting Up the React Client
+
+1. Navigate to the `client` folder:
+    ```sh
+    cd ../client
+    ```
+
+2. Install the required dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Start the React application:
+    ```sh
+    npm start
+    ```
+
+### How the Application Works
+
+This project uses Django Rest Framework (DRF) APIs and Django Channels to build a real-time chat application. 
+
+### Postman Collection
+
+A `API.postman_collection.json` file is included for easy testing of the API endpoints with Postman. Simply import this file into Postman to get started.
+

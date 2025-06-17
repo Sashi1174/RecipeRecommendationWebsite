@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './recommend.css';                                             // adjust path if needed
-import { toast, ToastContainer } from 'react-toastify';               
-import 'react-toastify/dist/ReactToastify.css';                       
-const RecommendForm = () => {                                        
-  const [ingredients, setIngredients] = useState('');                 
-  const [isVeg, setIsVeg] = useState('all');                          
-  const [results, setResults] = useState([]);                          
-  const [message, setMessage] = useState('');                        
- 
+import './recommend.css';  // adjust path if needed
+
+const RecommendForm = () => {
+  const [ingredients, setIngredients] = useState('');
+  const [isVeg, setIsVeg] = useState('all');
+  const [results, setResults] = useState([]);
+  const [message, setMessage] = useState('');
+
   const [showAddForm, setShowAddForm] = useState(false);
   const [newRecipe, setNewRecipe] = useState({
     title: '',
@@ -17,46 +16,33 @@ const RecommendForm = () => {
     category: 'veg',
   });
 
-const handleRecommend = async (e) => {
-  e.preventDefault();
-  try {
-    const user = JSON.parse(localStorage.getItem('user'));
-    const accessToken = user?.access;
-
-    const res = await axios.post(
-      'http://localhost:8000/api/recommend/',
-      {
+  const handleRecommend = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post('http://localhost:8000/api/recommend/', {
         ingredients: ingredients,
         is_veg: isVeg === 'veg' ? true : isVeg === 'non-veg' ? false : undefined,
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${accessToken}`, // ✅ Correct
-        },
+      });
+      if (res.data.message) {
+        setResults([]);
+        setMessage(res.data.message);
+      } else {
+        setResults(res.data);
+        setMessage('');
       }
-    );
-
-    if (res.data.message) {
-      setResults([]);
-      setMessage(res.data.message);
-    } else {
-      setResults(res.data);
-      setMessage('');
+    } catch (error) {
+      console.error('Recommendation error:', error);
+      setMessage('An error occurred while fetching recommendations.');
     }
-  } catch (error) {
-    console.error('Recommendation error:', error);
-    setMessage('An error occurred while fetching recommendations.');
-  }
-};
+  };
 
-
-const saveFavorite = async (recipeTitle) => {
+const saveFavorite = async (recipeId) => {
   try {
-    const accessToken = JSON.parse(localStorage.getItem('user'))?.access;
+    const accessToken = localStorage.getItem('access');
 
     await axios.post(
       'http://localhost:8000/api/recipes/save_favorite/',
-      { recipe_title: recipeTitle },  // changed key and value to title
+      { recipe_id: recipeId },  // Payload: only recipe ID
       {
         headers: {
           Authorization: `Bearer ${accessToken}`,
@@ -64,10 +50,8 @@ const saveFavorite = async (recipeTitle) => {
         }
       }
     );
-    <ToastContainer position="top-right" autoClose={3000} />
+
     console.log("Recipe saved to favorites!");
-    toast.success('✅ Login successful!');
-    alert("Recipe saved to favorites!")
   } catch (error) {
     console.error("Error saving recipe to favorites:", error);
   }
@@ -184,7 +168,7 @@ const saveFavorite = async (recipeTitle) => {
             <p><strong>Ingredients:</strong> {r.ingredients}</p>
             <p><strong>Instructions:</strong> {r.instructions}</p>
             <button
-              onClick={() => saveFavorite(r.title)}
+              onClick={() => saveFavorite(r.id)}
               className="bg-green-600 text-white px-3 py-1 mt-2 rounded"
             >
               Save Favorite
@@ -196,4 +180,4 @@ const saveFavorite = async (recipeTitle) => {
   );
 };
 
-export default RecommendForm; 
+export default RecommendForm;
