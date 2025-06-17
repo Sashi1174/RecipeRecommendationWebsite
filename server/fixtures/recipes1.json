@@ -1,0 +1,152 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "Chicken Curry",
+      "ingredients": "chicken, onion, garlic, tomato, curry powder, oil",
+      "instructions": "Heat oil in a large skillet. Add chopped onions and cook until golden. Add garlic and tomatoes, cook until soft. Add curry powder and chicken. Cook until done. Garnish and serve.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 2,
+    "fields": {
+      "title": "Grilled Chicken",
+      "ingredients": "chicken breast, olive oil, lemon juice, garlic, herbs, salt, pepper",
+      "instructions": "Marinate chicken with olive oil, lemon juice, garlic, and herbs for 1 hour. Grill until cooked. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 3,
+    "fields": {
+      "title": "Chicken Alfredo Pasta",
+      "ingredients": "chicken breast, fettuccine, heavy cream, garlic, parmesan cheese, butter",
+      "instructions": "Cook pasta. Sauté chicken until done. Prepare sauce with cream, garlic, butter, and cheese. Combine and serve.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 4,
+    "fields": {
+      "title": "Chicken Salad",
+      "ingredients": "chicken breast, mixed greens, tomatoes, cucumber, olive oil, lemon juice",
+      "instructions": "Grill chicken and slice. Toss veggies with olive oil and lemon juice. Top with chicken.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 5,
+    "fields": {
+      "title": "Chicken Stir Fry",
+      "ingredients": "chicken, bell peppers, soy sauce, garlic, ginger, oil",
+      "instructions": "Stir fry chicken with garlic and ginger. Add peppers and soy sauce. Cook until tender. Serve with rice.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 6,
+    "fields": {
+      "title": "Chicken Tacos",
+      "ingredients": "chicken, taco shells, lettuce, tomato, cheese, salsa",
+      "instructions": "Cook and shred chicken. Fill taco shells with chicken and toppings. Serve immediately.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 7,
+    "fields": {
+      "title": "Chicken Soup",
+      "ingredients": "chicken, carrots, celery, onion, garlic, broth, noodles",
+      "instructions": "Boil chicken and veggies in broth. Add noodles and cook until tender. Season and serve.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 8,
+    "fields": {
+      "title": "Chicken Sandwich",
+      "ingredients": "chicken breast, bread, lettuce, tomato, mayo, cheese",
+      "instructions": "Cook chicken breast. Assemble sandwich with bread and toppings. Serve chilled or warm.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 9,
+    "fields": {
+      "title": "Buffalo Chicken Wings",
+      "ingredients": "chicken wings, hot sauce, butter, garlic powder, salt",
+      "instructions": "Bake or fry wings. Toss in hot sauce mixed with melted butter and garlic powder. Serve with dip.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 10,
+    "fields": {
+      "title": "Chicken Fried Rice",
+      "ingredients": "chicken, rice, eggs, peas, soy sauce, green onions, oil",
+      "instructions": "Cook chicken and scramble eggs. Stir fry rice, peas, chicken, and eggs with soy sauce. Garnish with green onions.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 11,
+    "fields": {
+      "title": "Chicken Fry",
+      "ingredients": "chicken, ginger garlic paste, red chili powder, turmeric powder, coriander powder, garam masala, black pepper powder, lemon juice, salt, oil, curry leaves (optional), fresh coriander leaves (optional)",
+      "instructions": "Marinate the chicken with ginger garlic paste, red chili powder, turmeric, coriander powder, lemon juice, and salt. Heat oil in a pan. Fry the marinated chicken pieces until golden brown and cooked through. Add garam masala and black pepper powder towards the end. Garnish with curry leaves and fresh coriander leaves if desired. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 12,
+    "fields": {
+      "title": "Chicken Kebab",
+      "ingredients": "chicken mince, ginger garlic paste, red chili powder, garam masala, coriander powder, salt, lemon juice, fresh coriander, oil",
+      "instructions": "Mix all ingredients and shape into small patties or skewers. Grill or shallow fry until cooked and golden brown. Serve hot with mint chutney.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 13,
+    "fields": {
+      "title": "Chicken Wings",
+      "ingredients": "chicken wings, ginger garlic paste, soy sauce, chili sauce, honey, black pepper, salt, oil",
+      "instructions": "Marinate chicken wings with ginger garlic paste, soy sauce, chili sauce, honey, salt, and pepper for 1 hour. Bake or deep fry until crispy and cooked through. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 14,
+    "fields": {
+      "title": "Chicken 65",
+      "ingredients": "chicken, ginger garlic paste, red chili powder, turmeric powder, curry leaves, yogurt, cornflour, salt, oil, lemon juice",
+      "instructions": "Marinate chicken with ginger garlic paste, red chili powder, turmeric, yogurt, cornflour, and salt. Deep fry until crispy. In a separate pan, heat oil, add curry leaves and fried chicken, toss well. Add lemon juice and serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 15,
+    "fields": {
+      "title": "Chicken Tandoori",
+      "ingredients": "chicken, yogurt, ginger garlic paste, red chili powder, turmeric powder, garam masala, lemon juice, salt, oil, mustard seeds (optional), coriander leaves (optional)",
+      "instructions": "Marinate chicken with yogurt, ginger garlic paste, red chili powder, turmeric, garam masala, lemon juice, salt, and oil. Let it rest for at least 2 hours or overnight. Grill or bake at high heat until cooked and slightly charred. Garnish with coriander leaves and serve with lemon wedges.",
+      "is_veg": false
+    }
+  }
+]

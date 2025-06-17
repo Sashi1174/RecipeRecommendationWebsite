@@ -1,0 +1,92 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 90,
+    "fields": {
+      "title": "Gulab Jamun",
+      "ingredients": "milk powder, all-purpose flour, baking soda, ghee, milk, sugar, water, cardamom, rose water, saffron",
+      "instructions": "Make dough from milk powder, flour, baking soda, milk, and ghee. Shape into small balls. Deep fry until golden. Soak fried balls in warm sugar syrup flavored with cardamom, rose water, and saffron. Serve warm or cold.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 91,
+    "fields": {
+      "title": "Rasgulla",
+      "ingredients": "milk, lemon juice, sugar, water, rose water, cardamom",
+      "instructions": "Boil milk and curdle with lemon juice to make chenna (paneer). Knead chenna into smooth balls. Boil in sugar syrup until they expand and become spongy. Add rose water and cardamom for flavor.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 92,
+    "fields": {
+      "title": "Kheer (Rice Pudding)",
+      "ingredients": "basmati rice, milk, sugar, cardamom, saffron, almonds, pistachios, raisins",
+      "instructions": "Cook rice in milk on low heat until soft and thickened. Add sugar, cardamom, saffron, and nuts. Simmer for few minutes. Serve warm or chilled.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 93,
+    "fields": {
+      "title": "Jalebi",
+      "ingredients": "all-purpose flour, yogurt, sugar, water, saffron, ghee or oil for frying",
+      "instructions": "Make a batter of flour and yogurt, ferment for a few hours. Deep fry in circular shapes in hot ghee. Soak fried jalebis in warm sugar syrup flavored with saffron. Serve crispy.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 94,
+    "fields": {
+      "title": "Besan Ladoo",
+      "ingredients": "gram flour (besan), ghee, powdered sugar, cardamom, chopped nuts",
+      "instructions": "Roast besan in ghee on low flame till golden and aromatic. Remove from heat, add powdered sugar, cardamom, and nuts. Shape into round balls (ladoo) while warm.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 95,
+    "fields": {
+      "title": "Sandesh",
+      "ingredients": "fresh paneer (chenna), sugar, cardamom, saffron, rose water",
+      "instructions": "Knead fresh paneer till smooth. Cook with sugar and cardamom on low heat till mixture thickens. Shape into decorative pieces. Garnish with saffron and rose water.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 96,
+    "fields": {
+      "title": "Rabri",
+      "ingredients": "milk, sugar, cardamom, saffron, chopped nuts",
+      "instructions": "Boil milk on low heat, continuously stirring until it thickens and reduces. Add sugar, cardamom, saffron, and nuts. Serve chilled.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 97,
+    "fields": {
+      "title": "Peda",
+      "ingredients": "khoya (reduced milk), sugar, cardamom, ghee, saffron, pistachios",
+      "instructions": "Cook khoya with sugar and cardamom till thick. Cool slightly, shape into small discs. Garnish with saffron strands and pistachios.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 98,
+    "fields": {
+      "title": "Malpua",
+      "ingredients": "all-purpose flour, semolina, sugar, milk, fennel seeds, cardamom, oil for frying, sugar syrup",
+      "instructions": "Prepare batter with flour, semolina, sugar, milk, and spices. Deep fry in small pancakes. Soak briefly in sugar syrup and serve warm.",
+      "is_veg": true
+    }
+  }
+]

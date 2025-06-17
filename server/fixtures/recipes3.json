@@ -1,0 +1,72 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 23,
+    "fields": {
+      "title": "Fish Fried Rice",
+      "ingredients": "fish (cooked or fillets), cooked rice, peas, carrots, soy sauce, green onions, oil",
+      "instructions": "Cook fish and flake it. Stir fry peas and carrots in hot oil. Add cooked rice and soy sauce, mix well. Add flaked fish and green onions, cook for 2-3 minutes. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 24,
+    "fields": {
+      "title": "Fish Deviled Eggs",
+      "ingredients": "boiled eggs, mayonnaise, mustard, paprika, salt, pepper, cooked fish flakes",
+      "instructions": "Cut boiled eggs in half, remove yolks. Mix yolks with mayonnaise, mustard, salt, pepper, and cooked fish flakes. Fill egg whites with mixture. Sprinkle paprika and serve chilled.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 25,
+    "fields": {
+      "title": "Fish Salad Sandwich",
+      "ingredients": "boiled eggs, cooked fish flakes, mayonnaise, mustard, celery, salt, pepper, bread",
+      "instructions": "Chop boiled eggs and mix with cooked fish flakes, mayonnaise, mustard, chopped celery, salt, and pepper. Spread on bread slices and assemble sandwich. Serve chilled.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 26,
+    "fields": {
+      "title": "Spanish Fish Tortilla",
+      "ingredients": "eggs, potatoes, onion, cooked fish flakes, olive oil, salt",
+      "instructions": "Thinly slice potatoes and onions. Fry in olive oil until tender. Beat eggs with salt and mix with potatoes, onions, and cooked fish flakes. Pour mixture into pan and cook until set. Flip to cook other side. Serve warm.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 27,
+    "fields": {
+      "title": "Fish Bhurji (Indian Style Scrambled Fish)",
+      "ingredients": "eggs, cooked fish flakes, onion, tomato, green chili, turmeric, coriander powder, oil, salt, fresh coriander",
+      "instructions": "Heat oil, sauté onions and chili until soft. Add tomatoes and spices. Add cooked fish flakes and pour beaten eggs, scramble until cooked. Garnish with coriander and serve with bread or roti.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 28,
+    "fields": {
+      "title": "Fish Egg Drop Soup",
+      "ingredients": "eggs, fish broth (or chicken broth with fish flavor), cornstarch, green onions, soy sauce, salt, pepper",
+      "instructions": "Boil fish broth and thicken with cornstarch. Slowly pour beaten eggs into hot broth while stirring to create egg ribbons. Add soy sauce, salt, pepper, and garnish with green onions. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 29,
+    "fields": {
+      "title": "Fish Shakshuka",
+      "ingredients": "eggs, tomatoes, onion, garlic, bell pepper, paprika, cumin, cooked fish flakes, olive oil, salt, pepper",
+      "instructions": "Sauté onion, garlic, and bell pepper in olive oil. Add tomatoes and spices, cook until sauce thickens. Add cooked fish flakes. Crack eggs into sauce, cover and cook until eggs are set. Serve with bread.",
+      "is_veg": false
+    }
+  }
+]

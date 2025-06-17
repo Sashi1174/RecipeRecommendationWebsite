@@ -1,0 +1,72 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 16,
+    "fields": {
+      "title": "Egg Fried Rice",
+      "ingredients": "eggs, cooked rice, peas, carrots, soy sauce, green onions, oil",
+      "instructions": "Scramble eggs in hot oil and set aside. Stir fry peas and carrots, add cooked rice and soy sauce. Mix in scrambled eggs and green onions. Cook for 2-3 minutes and serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 17,
+    "fields": {
+      "title": "Deviled Eggs",
+      "ingredients": "boiled eggs, mayonnaise, mustard, paprika, salt, pepper",
+      "instructions": "Cut boiled eggs in half, remove yolks. Mix yolks with mayonnaise, mustard, salt, and pepper. Fill egg whites with yolk mixture. Sprinkle paprika and serve chilled.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 18,
+    "fields": {
+      "title": "Egg Salad Sandwich",
+      "ingredients": "boiled eggs, mayonnaise, mustard, celery, salt, pepper, bread",
+      "instructions": "Chop boiled eggs and mix with mayonnaise, mustard, chopped celery, salt, and pepper. Spread on bread slices and assemble sandwich. Serve chilled.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 19,
+    "fields": {
+      "title": "Spanish Tortilla",
+      "ingredients": "eggs, potatoes, onion, olive oil, salt",
+      "instructions": "Thinly slice potatoes and onions. Fry in olive oil until tender. Beat eggs with salt and mix with potatoes and onions. Pour mixture into pan and cook until set. Flip to cook other side. Serve warm.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 20,
+    "fields": {
+      "title": "Egg Bhurji (Indian Scrambled Eggs)",
+      "ingredients": "eggs, onion, tomato, green chili, turmeric, coriander powder, oil, salt, fresh coriander",
+      "instructions": "Heat oil, sauté onions and chili until soft. Add tomatoes and spices. Pour beaten eggs and scramble until cooked. Garnish with coriander and serve with bread or roti.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 21,
+    "fields": {
+      "title": "Egg Drop Soup",
+      "ingredients": "eggs, chicken broth, cornstarch, green onions, soy sauce, salt, pepper",
+      "instructions": "Boil chicken broth and thicken with cornstarch. Slowly pour beaten eggs into hot broth while stirring to create egg ribbons. Add soy sauce, salt, pepper, and garnish with green onions. Serve hot.",
+      "is_veg": false
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 22,
+    "fields": {
+      "title": "Shakshuka",
+      "ingredients": "eggs, tomatoes, onion, garlic, bell pepper, paprika, cumin, olive oil, salt, pepper",
+      "instructions": "Sauté onion, garlic, and bell pepper in olive oil. Add tomatoes and spices, cook until sauce thickens. Crack eggs into sauce, cover and cook until eggs are set. Serve with bread.",
+      "is_veg": false
+    }
+  }
+]

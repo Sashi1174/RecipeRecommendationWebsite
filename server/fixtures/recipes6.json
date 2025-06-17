@@ -1,0 +1,102 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 60,
+    "fields": {
+      "title": "Samosa",
+      "ingredients": "all-purpose flour, boiled potatoes, green peas, green chili, ginger, cumin seeds, garam masala, coriander, salt, oil for frying",
+      "instructions": "Make a stiff dough using flour and water. For filling, sauté cumin seeds, green chili, ginger; add boiled potatoes, peas, garam masala, coriander, and salt. Roll dough thin, cut into cones, stuff with filling, seal edges. Deep fry in hot oil until golden and crisp. Serve with chutney.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 61,
+    "fields": {
+      "title": "Bajji (Vegetable Fritters)",
+      "ingredients": "gram flour (besan), rice flour, sliced vegetables (potato, onion, raw banana, chili), turmeric, red chili powder, salt, oil for frying",
+      "instructions": "Make a thick batter with besan, rice flour, turmeric, chili powder, and salt adding water gradually. Dip vegetable slices in batter and deep fry until golden and crispy. Serve hot with chutney or sauce.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 62,
+    "fields": {
+      "title": "Paneer Pakora",
+      "ingredients": "paneer cubes, gram flour (besan), rice flour, carom seeds (ajwain), red chili powder, salt, water, oil for frying",
+      "instructions": "Prepare batter mixing besan, rice flour, ajwain, chili powder, salt, and water to a thick consistency. Dip paneer cubes in batter and deep fry till golden. Serve hot with green chutney or ketchup.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 63,
+    "fields": {
+      "title": "Onion Bhaji",
+      "ingredients": "thinly sliced onions, gram flour (besan), cumin seeds, chopped green chili, coriander, salt, water, oil for frying",
+      "instructions": "Mix onions with besan, cumin seeds, green chili, coriander, salt, and enough water to form a thick batter. Drop spoonfuls into hot oil and fry until crisp and golden. Serve with chutney.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 64,
+    "fields": {
+      "title": "Aloo Tikki",
+      "ingredients": "boiled potatoes, green chili, coriander, chaat masala, salt, bread crumbs, oil for frying",
+      "instructions": "Mash potatoes, add chopped chili, coriander, chaat masala, and salt. Shape into patties, coat with bread crumbs. Shallow fry till golden brown on both sides. Serve with tamarind chutney or yogurt.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 65,
+    "fields": {
+      "title": "Pani Puri",
+      "ingredients": "semolina, all-purpose flour, tamarind, mint leaves, coriander leaves, green chilies, black salt, chaat masala, boiled potatoes, boiled chickpeas",
+      "instructions": "Make small hollow puris by deep frying dough made from semolina and flour. Prepare spicy tamarind-mint water (pani). Stuff puris with mashed potatoes and chickpeas, then fill with the flavored water. Serve immediately.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 66,
+    "fields": {
+      "title": "Paneer Tikka",
+      "ingredients": "paneer cubes, yogurt, ginger-garlic paste, red chili powder, turmeric, garam masala, lemon juice, salt, oil",
+      "instructions": "Marinate paneer cubes in a mixture of yogurt and spices for 1-2 hours. Thread onto skewers and grill or bake until slightly charred. Serve hot with green chutney.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 67,
+    "fields": {
+      "title": "Chili Paneer",
+      "ingredients": "paneer, cornflour, all-purpose flour, bell peppers, onions, green chilies, soy sauce, chili sauce, garlic, salt, oil",
+      "instructions": "Coat paneer cubes in a batter of cornflour and flour and deep fry. Stir-fry onions, peppers, garlic, and chilies. Add sauces and toss in fried paneer. Cook for a few minutes and serve hot.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 68,
+    "fields": {
+      "title": "Bhakarwadi",
+      "ingredients": "gram flour, wheat flour, poppy seeds, sesame seeds, dry coconut, red chili powder, turmeric, jaggery, tamarind paste, salt, oil",
+      "instructions": "Make dough from flours and roll into thin circles. Prepare spicy-sweet filling with seeds, spices, jaggery, and tamarind. Spread filling, roll tightly, slice into rounds, and deep fry till crispy. Cool and store.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 69,
+    "fields": {
+      "title": "Masala Peanuts",
+      "ingredients": "raw peanuts, gram flour, red chili powder, turmeric, chaat masala, salt, oil",
+      "instructions": "Mix peanuts with gram flour and spices to coat evenly. Deep fry in hot oil till crunchy and golden. Drain and cool before serving.",
+      "is_veg": true
+    }
+  }
+]

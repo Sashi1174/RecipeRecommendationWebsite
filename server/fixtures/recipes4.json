@@ -1,0 +1,82 @@
+[
+  {
+    "model": "userApp.recipe",
+    "pk": 50,
+    "fields": {
+      "title": "Masala Dosa",
+      "ingredients": "rice, urad dal, potato, mustard seeds, curry leaves, green chilies, turmeric, oil, salt",
+      "instructions": "Soak and grind rice and urad dal to make dosa batter; ferment overnight. Prepare potato masala by sautéing mustard seeds, curry leaves, chilies, and boiled potatoes with turmeric and salt. Spread batter thin on hot griddle, cook till crisp, fill with potato masala, fold and serve with chutney and sambar.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 51,
+    "fields": {
+      "title": "Poha (Flattened Rice)",
+      "ingredients": "poha (flattened rice), mustard seeds, green chili, curry leaves, turmeric, peanuts, onions, lemon, coriander, oil, salt",
+      "instructions": "Rinse poha lightly. Heat oil, add mustard seeds, peanuts, chilies, curry leaves, and onions. Sauté, add turmeric and salt. Add poha, mix gently and cook for 2-3 minutes. Garnish with lemon juice and coriander leaves. Serve hot.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 52,
+    "fields": {
+      "title": "Idli with Coconut Chutney",
+      "ingredients": "rice, urad dal, fenugreek seeds, grated coconut, green chili, mustard seeds, curry leaves, oil, salt",
+      "instructions": "Soak rice, urad dal, and fenugreek seeds; grind separately and ferment overnight to make batter. Steam batter in idli molds for 10-12 minutes. Prepare chutney by grinding coconut, chili, salt, and tempering mustard seeds and curry leaves. Serve idlis hot with chutney and sambar.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 53,
+    "fields": {
+      "title": "Aloo Paratha",
+      "ingredients": "wheat flour, boiled potatoes, green chili, coriander, garam masala, salt, butter, oil",
+      "instructions": "Prepare dough with wheat flour and water. Mash potatoes and mix with chopped chilies, coriander, garam masala, and salt. Roll dough into balls, stuff with potato filling, roll again, and cook on hot griddle with butter/oil until golden brown. Serve hot with yogurt or pickle.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 54,
+    "fields": {
+      "title": "Upma",
+      "ingredients": "semolina (rava), mustard seeds, green chilies, ginger, curry leaves, mustard seeds, urad dal, chana dal, onion, cashews, salt, oil",
+      "instructions": "Roast semolina till fragrant. Heat oil, add mustard seeds, urad dal, chana dal, chilies, ginger, onions, and curry leaves. Add water and salt, bring to boil. Slowly add semolina, stirring continuously to avoid lumps. Cook till water is absorbed and upma is soft. Garnish with cashews and serve hot.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 55,
+    "fields": {
+      "title": "Medu Vada",
+      "ingredients": "urad dal, green chili, ginger, curry leaves, black pepper, salt, oil for frying",
+      "instructions": "Soak urad dal, grind to a smooth batter. Add chopped green chili, ginger, curry leaves, black pepper, and salt. Shape batter into doughnut shapes and deep fry in hot oil till golden and crisp. Serve with sambar and coconut chutney.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 56,
+    "fields": {
+      "title": "Besan Chilla (Savory Chickpea Pancake)",
+      "ingredients": "gram flour (besan), chopped onions, green chili, coriander leaves, turmeric, salt, oil",
+      "instructions": "Mix besan with water to make a batter. Add onions, chili, coriander, turmeric, and salt. Heat a griddle, pour batter and spread thin. Cook both sides till golden. Serve hot with chutney or yogurt.",
+      "is_veg": true
+    }
+  },
+  {
+    "model": "userApp.recipe",
+    "pk": 57,
+    "fields": {
+      "title": "Pongal",
+      "ingredients": "rice, moong dal, ginger, black pepper, cumin seeds, curry leaves, cashews, ghee, salt",
+      "instructions": "Roast moong dal, cook with rice and water till soft. In a pan, heat ghee, add mustard seeds, cumin seeds, pepper, ginger, curry leaves, and cashews. Pour seasoning into cooked rice mixture, mix well and serve hot with coconut chutney and sambar.",
+      "is_veg": true
+    }
+  }
+]
