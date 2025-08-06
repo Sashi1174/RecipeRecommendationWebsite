@@ -10,9 +10,7 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 import Navbar from './pages/Navbar';
 import './App.css'; // this file with the styles above
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 function App() {
                     <h1>Recipe Recommender</h1>
   return (
@@ -23,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

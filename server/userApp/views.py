@@ -259,7 +259,7 @@ def get_favorites(request):
 def save_favorite_recipe(request):
     user = request.user
     recipe_title = request.data.get('recipe_title')  # get title from request data
-
+    print(user)
     try:
         recipe = Recipe.objects.get(title=recipe_title)  # find by title
         recipe.favorited_by.add(user)

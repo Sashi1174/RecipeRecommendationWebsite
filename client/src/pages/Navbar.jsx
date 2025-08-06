@@ -30,11 +30,17 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                       
+                        {userData && (
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/profile">
+                                    Profile
+                                </Link>
+                            </li>
+                        )}
                     </ul>
 
                     <ul className="navbar-nav ms-auto">
-                        {userData ? (
+                        { userData ? (
                             <>
                                 <li className="nav-item">
                                     <span className="nav-link text-light">

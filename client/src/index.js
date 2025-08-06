@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Login from './pages/login';
 import Signup from './pages/signup';
-
+import Profile from './pages/Profile';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Navigate } from "react-router-dom";
@@ -23,6 +23,8 @@ export default function App() {
     <Route path="/signup" element={<Signup />} />
     <Route path="/recommend" element={<RecommendForm />} />
     <Route path="/add" element={<AddRecipeForm />} />
+    <Route path="/profile" element={<Profile />} />
+    
   </Routes>
   <Navbar />
   <ToastContainer position="top-middle" autoClose={3000} />
